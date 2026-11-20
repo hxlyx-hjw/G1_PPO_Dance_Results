@@ -93,6 +93,12 @@ http://127.0.0.1:8766/result/PPO_Training_Results_20261120_Final.tar.gz
 http://127.0.0.1:8766/result/PPO_Best_Policy_20261120_Final.zip
 ```
 
+完整项目源码包：
+
+```text
+http://127.0.0.1:8766/releases/G1_PPO_Dance_Results_20261120.tar.gz
+```
+
 GitHub Release 地址将在完成仓库认证与上传后补充。
 
 ## 快速验证
