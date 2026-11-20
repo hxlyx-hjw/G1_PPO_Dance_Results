@@ -1,0 +1,26 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+.venv-*/
+runtime/
+outputs/
+wheels/
+
+# Licensed source videos and large raw artifacts.
+data/dance/a/
+data/dance/b/
+data/dance/pose.npz
+
+# Full training records are distributed outside the Git object store.
+metrics.jsonl
+self_checks.jsonl
+train_*.log
+*.tar.gz
+*.zip
+
+# Local packaging and cache files.
+_packaging/
+_packaging_final/
+*.tmp
+*.log

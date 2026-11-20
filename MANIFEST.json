@@ -1,0 +1,81 @@
+{
+  "package": "AutoDL_Dance_PPO_Package",
+  "version": 1,
+  "packaging": {
+    "complete": true,
+    "archive": "AutoDL_Dance_PPO_COMPLETE_20261102.tar.gz",
+    "inner_manifest": "FILES.sha256",
+    "verify_script": "verify_archive.py"
+  },
+  "created_for": {
+    "platform": "AutoDL",
+    "gpu": "RTX 5090 32GB",
+    "image": "NVIDIA/cuda-samples/CUDA13.0-Torch2.7.0-Python3.11"
+  },
+  "dance": {
+    "dataset": "AIST++",
+    "genre": "gWA",
+    "clip": "gWA_sBM_cAll_d25_mWA0_ch01",
+    "views": ["c01", "c03"],
+    "duration_seconds": 11.9667,
+    "frames": 360,
+    "fps": 30.0
+  },
+  "multiview": {
+    "backend": "multiview_dlt",
+    "calibration": "data/dance/calibration.json",
+    "median_reprojection_error_px": 6.0891,
+    "valid_joint_fraction": 0.9492,
+    "self_corrected_frames": 187,
+    "retarget_root_mode": "contact_grounded_support_refined"
+  },
+  "torch_wheelhouse": {
+    "path": "wheels/torch-cu128-cp312",
+    "torch": "2.7.0+cu128",
+    "python": "3.12",
+    "platform": "linux_x86_64"
+  },
+  "files": [
+    {
+      "path": "data/dance/a/gWA_sBM_c01_d25_mWA0_ch01.mp4",
+      "bytes": 15201225,
+      "sha256": "2AFFBEE5157E481AE486C235C9FA81CC4AB57500B3F0DDDA7E328D5DA4A07D0E"
+    },
+    {
+      "path": "data/dance/b/gWA_sBM_c03_d25_mWA0_ch01.mp4",
+      "bytes": 14550947,
+      "sha256": "9E0E78576B80523C83858826007AE6070A9E2C7EEF3C9B7F0F442502A0BD7226"
+    },
+    {
+      "path": "data/dance/calibration.json",
+      "bytes": 1806,
+      "sha256": "5FB609F4E306B6AE740963E8A4A7A61A3F3DA0252AE5FF1E844DD770956EBB57"
+    },
+    {
+      "path": "data/dance/pose.npz",
+      "bytes": 385819,
+      "sha256": "0049E4C04F9EA2E724171603D7CCD604462E888DB13D893B270A94ECA7E97D61"
+    },
+    {
+      "path": "data/dance/reference.npz",
+      "bytes": 138796,
+      "sha256": "2CF50CA13C0887910B74B7C1368E1533FCFAEA5EEA64B22567DC979E88220F20"
+    },
+    {
+      "path": "assets/motion.pt",
+      "bytes": 145745,
+      "sha256": "CF668F75B90D1ABF73D2B87612A6E76BCCC61FF7E083B63582D3F6AAA3C1759D"
+    }
+  ],
+  "entrypoints": {
+    "jupyter": "AutoDL_Jupyter_Setup.ipynb",
+    "install": "bash install_autodl.sh",
+    "prepare_config": "bash prepare_config.sh",
+    "reset_environment": "bash reset_environment.sh",
+    "verify": "bash verify_package.sh",
+    "smoke": "bash smoke_test.sh",
+    "train": "bash train_dance_gpu.sh",
+    "train_auto": "bash train_auto.sh",
+    "re_extract": "bash extract_dance.sh"
+  }
+}

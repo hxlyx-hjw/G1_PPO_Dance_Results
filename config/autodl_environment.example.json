@@ -1,0 +1,40 @@
+{
+  "detected_at": "2026-10-31T00:00:00+08:00",
+  "os": "Ubuntu 22.04.5 LTS",
+  "kernel": "5.15.0",
+  "python": "3.12.16",
+  "python_executable": "/root/autodl-tmp/AutoDL_Dance_PPO_Package/.venv-clean/bin/python",
+  "cpu_model": "Example 32 vCPU",
+  "cpu_cores": 32,
+  "ram_gb": 64.0,
+  "disk_path": "/root/autodl-tmp",
+  "disk_free_gb": 100.0,
+  "gpu_count": 1,
+  "gpus": [
+    {
+      "name": "NVIDIA GeForce RTX 5090",
+      "memory_mb": "32607",
+      "driver": "580.126.09",
+      "compute_cap": "12.0"
+    }
+  ],
+  "gpu_primary": {
+    "name": "NVIDIA GeForce RTX 5090",
+    "memory_mb": "32607",
+    "driver": "580.126.09",
+    "compute_cap": "12.0"
+  },
+  "torch": {
+    "version": "2.7.0+cu128",
+    "cuda_build": "12.8",
+    "cuda_available": true,
+    "device": "NVIDIA GeForce RTX 5090"
+  },
+  "profile": "rtx5090_32g",
+  "profile_label": "RTX 5090 32GB / 高并行",
+  "suitable": true,
+  "recommended_envs": 12,
+  "recommended_vcpu": 24,
+  "recommended_ram_gb": 48,
+  "output": "/root/autodl-tmp/runs/gwa_100k"
+}

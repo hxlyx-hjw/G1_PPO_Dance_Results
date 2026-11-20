@@ -1,0 +1,8 @@
+Source: AIST++ / AIST Dance Video Database.
+Clip: gWA_sBM_cAll_d25_mWA0_ch01, camera c01 + c03.
+Use is subject to the AIST Dance DB research terms:
+https://aistdancedb.ongaaccel.jp/terms_of_use/
+
+This package does not grant a new license for the videos, mocap annotations,
+calibration files or derived motion data. Do not redistribute them outside the
+scope allowed by the original terms.

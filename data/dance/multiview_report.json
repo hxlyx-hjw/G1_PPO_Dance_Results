@@ -1,0 +1,38 @@
+{
+  "dataset": "AIST++",
+  "genre": "gWA",
+  "clip": "gWA_sBM_cAll_d25_mWA0_ch01",
+  "views": {
+    "a": "a/gWA_sBM_c01_d25_mWA0_ch01.mp4",
+    "b": "b/gWA_sBM_c03_d25_mWA0_ch01.mp4"
+  },
+  "calibration": "calibration.json",
+  "camera_mode": "calibrated",
+  "backend": "multiview_dlt",
+  "frames": 360,
+  "duration_seconds": 11.9667,
+  "sample_fps": 30.0,
+  "median_reprojection_error_px": 6.0891,
+  "valid_joint_fraction": 0.9492,
+  "self_correction": {
+    "enabled": true,
+    "max_gap_frames": 21,
+    "corrected_joint_cells": 646,
+    "corrected_frames": 187,
+    "corrected_fraction": 0.0544
+  },
+  "scale": {
+    "median_leg_length": 65.4333,
+    "scale_factor": 0.0129903,
+    "target_leg_length": 0.85,
+    "method": "side_leg_chain"
+  },
+  "retarget": {
+    "root_mode": "contact_grounded_support_refined",
+    "frames": 360,
+    "rejected_frames": 129,
+    "mean_ik_residual": 0.06547,
+    "root_displacement_m": 0.37618,
+    "contact_frames": 354
+  }
+}

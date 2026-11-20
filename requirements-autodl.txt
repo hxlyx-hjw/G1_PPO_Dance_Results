@@ -1,0 +1,14 @@
+# AutoDL image: CUDA 13.0 / Torch 2.7.0 / Python 3.11
+# Do not install torch here; use the image-provided CUDA PyTorch.
+numpy==1.26.4
+scipy==1.14.1
+opencv-contrib-python==4.10.0.84
+mediapipe==0.10.21
+jax==0.4.38
+jaxlib==0.4.38
+ml-dtypes==0.5.1
+mujoco>=3.3,<3.4
+gymnasium>=1.0,<2
+pillow>=10
+tqdm>=4.66
+requests>=2.32

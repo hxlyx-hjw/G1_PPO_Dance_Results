@@ -1,0 +1,15 @@
+{
+  "output": "E:\\TEST_RECORD\\Server_Deploy\\AutoDL\\result\\gwa_ppo_results_20261107_162644\\policy_replay.gif",
+  "checkpoint": "E:\\TEST_RECORD\\Server_Deploy\\AutoDL\\result\\gwa_ppo_results_20261107_162644\\policy.pt",
+  "frames": 181,
+  "fps": 15,
+  "fallen": false,
+  "simulation_seconds": 11.979999999999833,
+  "reference_completed": true,
+  "joint_rmse_rad": 0.5347476093471069,
+  "max_root_xy_error_m": 0.2800198271865401,
+  "leg_weight": 0.0,
+  "joint_assist": true,
+  "render_mode": "physical_policy_rollout",
+  "video_controller": {}
+}
