@@ -99,7 +99,25 @@ http://127.0.0.1:8766/result/PPO_Best_Policy_20261120_Final.zip
 http://127.0.0.1:8766/releases/G1_PPO_Dance_Results_20261120.tar.gz
 ```
 
-GitHub Release 地址将在完成仓库认证与上传后补充。
+GitHub 仓库：
+
+```text
+https://github.com/hxlyx-hjw/G1_PPO_Dance_Results
+```
+
+GitHub Release：
+
+```text
+https://github.com/hxlyx-hjw/G1_PPO_Dance_Results/releases/tag/v1.0.0-20261120
+```
+
+GitHub 下载地址：
+
+```text
+https://github.com/hxlyx-hjw/G1_PPO_Dance_Results/releases/download/v1.0.0-20261120/G1_PPO_Dance_Results_20261120.tar.gz
+https://github.com/hxlyx-hjw/G1_PPO_Dance_Results/releases/download/v1.0.0-20261120/PPO_Training_Results_20261120_Final.tar.gz
+https://github.com/hxlyx-hjw/G1_PPO_Dance_Results/releases/download/v1.0.0-20261120/PPO_Best_Policy_20261120_Final.zip
+```
 
 ## 快速验证
 
